@@ -30,7 +30,7 @@ async function fetchSections() {
 async function fetchArticles(categoryId = 'all') {
     try {
         const sections = await fetchSections();
-        const response = await fetch('/articles');  // Assurez-vous que cette URL est correcte
+        const response = await fetch('https://newenki.zendesk.com/api/v2/help_center/fr/articles');  // Assurez-vous que cette URL est correcte
         const data = await response.json();
         const articlesTbody = document.getElementById('articles');
 
