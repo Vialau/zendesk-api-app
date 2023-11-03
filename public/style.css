@@ -1,0 +1,49 @@
+body {
+    background-color: #F3EDE6;
+    padding: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: #006902;
+    text-decoration: none;
+    margin-bottom: 3px;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+img {
+    height: 20px;  /* Vous pouvez ajuster selon la taille souhaitée pour votre icône */
+}
+
+#sortCategory {
+    border-radius: 8px;
+    border: none;
+    background-color: #006902;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    color: white;
+
+}
